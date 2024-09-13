@@ -20,6 +20,20 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
+
+
+
+        private void Helbut_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Hello", " You clicked button helo", "OK");
+        }
+
+        private void Subbut_Clicked(object sender, EventArgs e)
+        {
+            string username = entryUsername.Text;
+            DisplayAlert("Hello", $"You submitted {username}", "OK");
+
+        }
     }
 
 }
